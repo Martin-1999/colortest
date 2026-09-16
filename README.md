@@ -56,6 +56,3 @@ server {
 
 - **静态托管**：GitHub Pages / Vercel / Netlify / Cloudflare Pages 等，直接上传即可。
 - **任意 HTTP 服务**：Apache、Caddy、对象存储静态站点等均可。
-
-> 说明：结果通过 URL 的 hash（形如 `#/c/克莱因蓝`）保存，分享链接可直达对应结果，
-> 无需服务器端存储。
