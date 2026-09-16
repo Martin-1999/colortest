@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>测一测你的灵魂颜色</title>
+  <meta name="description" content="回答 15 个问题，遇见专属于你的灵魂颜色。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="app">
+    <!-- 开始页 -->
+    <section id="view-start" class="view view--start">
+      <div class="start__inner">
+        <p class="start__eyebrow">Color · Soul · 15 Questions</p>
+        <h1 class="start__title">你的灵魂，<br>是什么颜色？</h1>
+        <p class="start__sub">
+          克莱因蓝的极致、天青的恰好、玫瑰灰的耐看……<br>
+          每一抹颜色背后，都藏着一种灵魂。<br>
+          回答 15 个问题，遇见你的颜色。
+        </p>
+        <button id="btn-start" class="btn btn--primary">开始测试</button>
+        <p class="start__hint">约 3 分钟 · 共 15 题</p>
+      </div>
+    </section>
+
+    <!-- 答题页 -->
+    <section id="view-quiz" class="view view--quiz hidden">
+      <div class="quiz__top">
+        <button id="btn-back" class="btn-back" aria-label="上一题">‹ 上一题</button>
+        <span id="quiz-counter" class="quiz__counter">1 / 15</span>
+      </div>
+      <div class="progress"><div id="progress-bar" class="progress__bar"></div></div>
+      <div class="quiz__body">
+        <h2 id="question-text" class="quiz__question"></h2>
+        <div id="options" class="options"></div>
+      </div>
+    </section>
+
+    <!-- 结果页 -->
+    <section id="view-result" class="view view--result hidden">
+      <div id="result-inner" class="result__inner">
+        <p class="result__eyebrow">Your Soul Color</p>
+        <h2 id="result-name" class="result__name"></h2>
+        <div id="result-hex" class="result__hex"></div>
+        <p id="result-family" class="result__family"></p>
+        <p id="result-desc" class="result__desc"></p>
+        <div class="result__actions">
+          <button id="btn-retest" class="btn btn--ghost">重新测试</button>
+          <button id="btn-share" class="btn btn--ghost">分享结果</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
