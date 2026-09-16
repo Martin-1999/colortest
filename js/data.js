@@ -89,12 +89,12 @@ const QUESTIONS = [
     ]
   },
   {
-    text: "如果人生必须选一种底色，你希望它是？",
+    text: "周末整理房间时，你会最先做什么？",
     options: [
-      { label: "A", text: "干净纯粹的白", colorId: "奶油白" },
-      { label: "B", text: "深邃沉静的蓝", colorId: "青花蓝" },
-      { label: "C", text: "温暖踏实的棕", colorId: "陶土棕" },
-      { label: "D", text: "神秘浪漫的紫", colorId: "雾紫" }
+      { label: "A", text: "先做减法，把用不上的东西清理出去", colorId: "奶油白" },
+      { label: "B", text: "分类收纳，让每样东西各归其位", colorId: "青花蓝" },
+      { label: "C", text: "给自己倒杯热饮，慢慢来，不着急", colorId: "陶土棕" },
+      { label: "D", text: "放首歌、点上香薰，先营造点氛围", colorId: "雾紫" }
     ]
   },
   {
@@ -136,19 +136,19 @@ const QUESTIONS = [
   {
     text: "哪一种“美”，最容易让你心动？",
     options: [
-      { label: "A", text: "留白克制、安静的高级感", colorId: "莫兰迪灰" },
+      { label: "A", text: "安静克制、有分寸的高级感", colorId: "莫兰迪灰" },
       { label: "B", text: "扑面而来、热烈张扬的生命力", colorId: "朱砂" },
       { label: "C", text: "欲说还休、含蓄内敛的古典美", colorId: "胭脂" },
       { label: "D", text: "精致讲究、恰到好处的优雅", colorId: "蒂芙尼蓝" }
     ]
   },
   {
-    text: "如果能穿越回古代，你最想亲眼看看？",
+    text: "关于“努力”，你最认同下面哪一句话？",
     options: [
-      { label: "A", text: "驼铃声声的丝路商队", colorId: "沙漠驼" },
-      { label: "B", text: "中世纪画师调配蓝色的画室", colorId: "群青" },
-      { label: "C", text: "汝窑开窑，那一抹天青出世", colorId: "天青" },
-      { label: "D", text: "陈桥驿黄袍加身的那个清晨", colorId: "柘黄" }
+      { label: "A", text: "慢一点没关系，贵在坚持到底", colorId: "沙漠驼" },
+      { label: "B", text: "为热爱与理想努力，不计较一时得失", colorId: "群青" },
+      { label: "C", text: "不卷也不躺，找到自己的节奏就刚刚好", colorId: "天青" },
+      { label: "D", text: "努力，就是为了站上更高的位置", colorId: "柘黄" }
     ]
   },
   {
@@ -175,20 +175,20 @@ const QUESTIONS = [
       { label: "A", text: "晶莹通透，把美好定格成永恒", colorId: "点翠蓝" },
       { label: "B", text: "越陈越香，经得起时间考验", colorId: "勃艮第红" },
       { label: "C", text: "沉默不语，却藏着千言万语", colorId: "石墨灰" },
-      { label: "D", text: "洗尽铅华，回归最本真的自己", colorId: "铅白" }
+      { label: "D", text: "褪去浮华，回归最本真的自己", colorId: "铅白" }
     ]
   },
   {
-    text: "你偏爱的自然景象，更接近哪一种？",
+    text: "别人夸你的时候，你更希望听到哪一句？",
     options: [
-      { label: "A", text: "雨过天晴、云开雾散的瞬间", colorId: "天青" },
-      { label: "B", text: "深海幽静、深不见底的神秘", colorId: "普鲁士蓝" },
-      { label: "C", text: "大漠苍茫、一望无际的辽阔", colorId: "赭石" },
-      { label: "D", text: "森林葱郁、生机盎然的绿意", colorId: "祖母绿" }
+      { label: "A", text: "“你把一切都拿捏得刚刚好”", colorId: "天青" },
+      { label: "B", text: "“你想得真清楚、看得真远”", colorId: "普鲁士蓝" },
+      { label: "C", text: "“你这人实在、踏实、靠得住”", colorId: "赭石" },
+      { label: "D", text: "“你身上有股打不倒的生命力”", colorId: "祖母绿" }
     ]
   },
   {
-    text: "抛开所有身份，你觉得自己骨子里最像哪种颜色？",
+    text: "抛开所有身份，你觉得自己骨子里更接近哪种人？",
     options: [
       { label: "A", text: "冷静理性的思考者", colorId: "靛青" },
       { label: "B", text: "热烈赤诚的行动派", colorId: "珊瑚橘" },
