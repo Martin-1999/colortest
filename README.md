@@ -13,7 +13,6 @@ colortest/
 ├── js/
 │   ├── data.js         # 颜色数据 + 15 道题目
 │   └── app.js          # 答题、计分、结果渲染、分享逻辑
-├── color.txt           # 原始颜色数据（来源）
 └── README.md
 ```
 

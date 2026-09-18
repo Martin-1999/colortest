@@ -30,6 +30,12 @@
     return lum > 150;
   }
 
+  // hex → RGB 三元组
+  function hexToRgb(hex) {
+    var n = parseInt(hex.replace('#', ''), 16);
+    return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+  }
+
   // 状态
   var answers = []; // 每道题选中的选项下标（0-3）
   var current = 0;
@@ -153,6 +159,8 @@
 
     $('#result-name').textContent = color.name;
     $('#result-hex').textContent = color.hex;
+    var rgb = hexToRgb(color.hex);
+    $('#result-rgb').textContent = 'RGB ' + rgb[0] + ' · ' + rgb[1] + ' · ' + rgb[2];
     $('#result-family').textContent = fam.tag + ' · ' + fam.slogan;
 
     renderDims(dims);
